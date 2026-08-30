@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const btn=document.getElementById('rsvpBtn');const msg=document.getElementById('rsvpMessage');btn.addEventListener('click',()=>{msg.textContent='Thank you! RSVP form coming soon. ♥';btn.textContent='We’ll see you there';btn.disabled=true})});
